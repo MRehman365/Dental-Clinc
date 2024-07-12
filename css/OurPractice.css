@@ -1,0 +1,158 @@
+.detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.l-detail{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.l-detail p{
+    color: #707070;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.detail-btn {
+    display: flex;
+    gap: 20px;
+    font-family: arial;
+}
+.detail-btn button{
+    height: 35px;
+    width: 150px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: rgb(49, 49, 49);
+    color: white;
+    background-color: #0461a0;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.3s;
+}
+.l-detail button:hover{
+    transform: scale(1.1);
+}
+
+.r-detail{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.r-detail img{
+    height: 350px;
+    width: 350px;
+
+}
+.video-section{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #5dbb2a;
+    /* padding: 100px 0px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+}
+.video-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    text-align: left;
+    padding: 0px 15px;
+}
+.video-left h2{
+    font-family: "Archivo", Sans-serif;
+    font-size: 2.4em;
+    font-weight: 900;
+    line-height: 1em;
+    color: white;
+}
+.video-left .price{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #0461a0;
+}
+.video-left p{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.video-left button{
+    height: 40px;
+    width: 200px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #0461a0;
+    color: white;
+    background-color: #0461a0;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.3s;
+}
+.video-left button:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    transform: scale(1.1);
+}
+.video-right{
+    height: 400px;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 0px 20px 20px 0px;
+}
+@media (max-width:850px) {
+    .detail{
+        flex-direction: column-reverse;
+
+    }
+    .l-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .r-detail{
+        width: 100%;
+    }
+    .video-section{
+        flex-direction: column-reverse;
+    }
+    .video-left{
+        width: 100%;
+        padding: 30px;
+    }
+    .video-left h2{
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+    .video-right{
+        height: 200px;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .doc-left{
+        width: 100%;
+    
+    }
+}

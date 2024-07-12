@@ -1,0 +1,411 @@
+
+.main-header{
+    width: 100%;
+    background-color: #0461a0;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.header-content{
+    width: 70%;
+    margin-top: 70px;
+    background-color: #0461a0;
+    height: auto;
+    padding: 50px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-content p{
+    color: #5dbb2a;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.6em;
+}
+.header-content h1{
+    font-size: 3rem;
+    color: white;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.l-detail{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.l-detail h1{
+    margin: 0px 0px 0px 0px;
+    font-family: "Archivo", Sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}
+.l-detail p{
+    color: #707070;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.l-detail button:hover{
+    transform: scale(1.1);
+}
+
+.r-detail{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-detail img{
+    height: 350px;
+    width: 350px;
+
+}
+.video-section{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #5dbb2a;
+    /* padding: 100px 0px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+}
+.video-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    text-align: left;
+    padding: 0px 50px;
+}
+.video-left h2{
+    font-family: "Archivo", Sans-serif;
+    font-size: 2.4em;
+    font-weight: 900;
+    line-height: 1em;
+    color: white;
+}
+.video-left .price{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #0461a0;
+}
+.video-left p{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.video-left button{
+    height: 40px;
+    width: 200px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #0461a0;
+    color: white;
+    background-color: #0461a0;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.3s;
+}
+.video-left button:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    transform: scale(1.1);
+}
+.video-right{
+    height: 400px;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 0px 20px 20px 0px;
+}
+.s-text{
+    margin-top: 50px;
+}
+.s-text p{
+    width: 70%;
+    margin-left: 15%;
+
+}
+.Cost{
+    position: relative;
+    background-color: #0461a0;
+    width: 100%;
+}
+.cost-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 2;
+}
+.green-line{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: #5dbb2a;
+}
+.cost-card{
+    background-color: white;
+    max-width: 250px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    border-style: none;
+    border-radius: 100px 15px 15px 15px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 2;
+}
+.cost-card h1{
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    background-color: #5dbb2a;
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+.green-box{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.green-box h1{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.content-box{
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #5dbb2a;
+    max-width: 600px;
+    min-width: 300px;
+}
+@media (max-width:800px) {
+    .header-content{
+        text-align: center;
+        width: 100%;
+        margin-top: 70px;
+        background-color: #0461a0;
+        height: auto;
+        padding: 50px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-content p{
+        color: #5dbb2a;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 1.3em;
+    }
+    .header-content h1{
+        font-size: 2rem;
+        color: white;
+    }
+    .detail{
+        flex-direction: column-reverse;
+
+    }
+    .l-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .r-detail{
+        width: 100%;
+    }
+    .video-section{
+        flex-direction: column-reverse;
+    }
+    .video-left{
+        width: 100%;
+        padding: 30px;
+    }
+    .video-left h2{
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+    .video-right{
+        height: 200px;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .s-text p{
+        width: 100%;
+        margin-left: 0%;
+    
+    }
+    .cost-card h1{
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        background-color: #5dbb2a;
+        color: white;
+        height: 50px;
+        width: 50px;
+    }
+}
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #6ec1e4;
+}
+
+h1 {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366; /* Dark blue heading text */
+}
+
+.reason {
+    margin: 20px auto;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #6ec1e4; /* Slightly lighter blue for the reason boxes */
+    width: 70%;
+    transition: all 0.3s ease;
+}
+
+.reason h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #003366; /* Dark blue text */
+    display: flex;
+}
+
+.reason h2 i {
+    margin-right: 10px; /* Add space between icon and text */
+}
+
+.description {
+    display: none;
+    font-size: 1em;
+    margin-top: 10px;
+    color: white; /* White text for description */
+}
+
+.get-started {
+    width: 70%;
+    margin-left: 15%;
+    height: 40px;
+    width: 200px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #0461a0;
+    color: white;
+    background-color: #0461a0;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.2s;
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    transform: scale(1.1);
+}
+
+/* Mobile View */
+@media (max-width: 800px) {
+    .reason {
+        width: 100%;
+    }
+    .get-started{
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1{
+        
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+.qa-container {
+    width: 100%;
+    margin: auto;
+}
+
+.qa {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.question {
+    color: #003366;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.question .symbol {
+    margin-right: 10px;
+    color: #5dbb2a;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 1.1rem; color: #696969;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 1.6em;
+}

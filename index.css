@@ -1,0 +1,628 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: auto;
+}
+.home{
+    overflow: hidden;
+    margin-top: 70px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #0461a0;
+    background-image: url(https://drpitner.com/wp-content/uploads/2023/03/SECTION-HERO-1-1.png);
+    background-position: 0px -1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-container{
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.left img{
+    height: 500px;
+    width: 500px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.right h1{
+    font-family: "Archivo", Sans-serif;
+    font-size: 4.6vw;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: white;
+}
+.p2{
+    color:white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.home-btn{
+    display: flex;
+    gap: 20px;
+}
+.home-btn button{
+    height: 60px;
+    width: 260px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #5dbb2a;
+    color: white;
+    background-color: #5dbb2a;
+    border-style: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.5s;
+
+}
+.home-btn button:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    transform: scale(1.1);
+}
+
+
+
+/* video section */
+.video-section{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #5dbb2a;
+    /* padding: 100px 0px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+}
+.video-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    text-align: left;
+    padding: 0px 15px;
+}
+.video-left h2{
+    font-family: "Archivo", Sans-serif;
+    font-size: 2.4em;
+    font-weight: 900;
+    line-height: 1em;
+    color: white;
+}
+.video-left .price{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #0461a0;
+}
+.video-left p{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.video-left button{
+    height: 40px;
+    width: 200px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #0461a0;
+    color: white;
+    background-color: #0461a0;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.3s;
+}
+.video-left button:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    transform: scale(1.1);
+}
+.video-right{
+    height: 400px;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 0px 20px 20px 0px;
+}
+.video-right video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.doctor{
+    width: 90%;
+    margin-left: 5%;
+}
+.doc-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doc-left img{
+    width: 444px;
+}
+.doc-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.doc-right h2{
+    font-family: "Archivo", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1em;
+    color: rgb(49, 49, 49);
+}
+.doc-right h3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #4e4e4ecc;
+}
+.doc-right p{
+    margin-top: 10px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: rgb(107, 107, 107);
+}
+.doc-right button{
+    height: 40px;
+    width: 200px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: rgb(49, 49, 49);
+    color: white;
+    background-color: #5dbb2a;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.3s;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 5%; 
+    justify-content: center; 
+    background-color: #0461a0;
+  }
+  .title{
+    background-color: #0461a0;
+    
+    padding: 10px;
+  }
+  .title h2{
+    font-size: 2.4em;
+    line-height: 1.6em;
+    color: white;
+  }
+  .title p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    color: white;
+  }
+
+  .card { 
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 350px;
+    max-width: 400px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-content h2 {
+    color: #0461a0;
+    margin: 0px 0px 0px 0px;
+    font-family: "Archivo", Sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+  }
+
+  .card-content p {
+    color: #6e6e6e;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .brace{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #5dbb2a;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .l-brace{
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    padding: 0px 15px;
+  }
+  .l-brace img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: -5%;
+    left: -5px;
+  }
+  .r-brace{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    padding: 0px 15px;
+  }
+  .r-brace h1{
+    font-family: "Archivo", Sans-serif;
+    font-size: 2.4em;
+    font-weight: 900;
+    line-height: 1em;
+    color: white;
+}
+.r-brace .price{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #0461a0;
+    line-height: 1.8rem;
+}
+.r-brace p{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.r-brace button{
+    height: 40px;
+    width: 200px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #0461a0;
+    color: white;
+    background-color: #0461a0;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32) inset;
+    transition: 0.2s;
+    transition: 0.3s;
+}
+.r-brace button:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.356);
+    transform: scale(1.1);
+}
+@media (max-width:800px) {
+    .left{
+        width: 100%;
+    }
+    .right{
+        margin-top: 50px;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .right h1{
+        font-family: "Archivo", Sans-serif;
+        font-size: 8.6vw;
+        font-weight: 900;
+        line-height: 1.1em;
+        color: rgb(255, 255, 255);
+    }
+    .p2{
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    
+.left img{
+    height: 375px;
+    width: 350px;
+}
+
+/* video */
+.video-section{
+    flex-direction: column-reverse;
+}
+.video-left{
+    width: 100%;
+    padding: 30px;
+}
+.video-left h2{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+.video-right{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.doc-left{
+    width: 100%;
+
+}
+.doc-right{
+    margin-left: 1%;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+}
+.doc-left img {
+    width: 340px;
+}
+.l-brace{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    padding: 0px 15px;
+  }
+  .l-brace img{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: 0%;
+    left: 0px;
+  }
+  .r-brace{
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.service-item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.service-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.service-item:hover {
+    transform: scale(1.05);
+}
+.service-label {
+    position: absolute;
+    height: 40px;
+    bottom: 10px;
+    background-color: #5dbb2a;
+    color: #fff;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    line-height: 40px;
+}
+.service-text {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #5dbb2a;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    text-align: left;
+    z-index: 999911;
+}
+.service-item:hover .service-text {
+    transform: translateY(0);
+    bottom: 0%;
+}
+.service-item:hover .service-label {
+    transform: translateY(-100%);
+}
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* slider */
+.slider {
+    padding: 50px 0px;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider h1 {
+    font-family: "Archivo", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: rgb(43, 43, 43);
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .slider p {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .slides {
+    margin-left: 5%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    position: relative;
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 390px;
+  }
+
+  .slide img {
+    width: 100%;
+  }
+
+  .description {
+    position: absolute;
+    bottom: 0;
+    background: #0461a0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide:hover .description {
+    transform: translateY(0);
+  }
+
+  .dots {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #0461a0;
+  }
+
+  @media (max-width: 600px) {
+    .slider {
+      padding: 50px 0px;
+      position: relative;
+      max-width: 390px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .slides {
+      margin-left: 0;
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin: 0;
+    }
+  }
